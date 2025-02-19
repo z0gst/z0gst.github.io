@@ -65,7 +65,7 @@ analytics:
     id: # fill in your GoatCounter ID
   umami:
     id: 7a3b2ecc-260e-4d0d-b181-1d21b5a90e15 # fill in your Umami ID
-    domain: pulse.lonelyidea.com # fill in your Umami domain
+    domain: https://pulse.lonelyidea.com # fill in your Umami domain
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
