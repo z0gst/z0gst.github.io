@@ -101,7 +101,7 @@ Connect to remote host with VS Code and install the recommended addons, which ma
 
 - `Markdown › Copy Files: Destination`
 
-    This option let's you choose where pasted in images are saved. For instance in the `/assets/img/<document-name>/` folder to make managing files easier.
+    This option let's you choose where pasted in images are saved. For instance in the `/assets/img/posts/<document-name>/` folder to make managing files easier.
     
     > Make sure to add it to remote host so it would not interfere with settings on other machines.
     {: .prompt-tip }
@@ -109,7 +109,7 @@ Connect to remote host with VS Code and install the recommended addons, which ma
     Add item:
 
     - **Item**: `*`
-    - **Value**: `../assets/img/${documentBaseName}/${fileName}`
+    - **Value**: `../assets/img/posts/${documentBaseName}/${fileName}`
 
 - `Markdown › Editor › Paste Url As Formatted Link`
 
