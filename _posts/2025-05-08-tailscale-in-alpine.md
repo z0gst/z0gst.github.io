@@ -4,7 +4,7 @@ date: 2025-05-08 03:54:14
 tags: [tailscale, vm, alpine]
 ---
 
-I have been running [Tailscale](https://tailscale.com/) in an [Ubuntu](https://ubuntu.com/) [VM](https://en.wikipedia.org/wiki/Virtual_machine), and it has been stable and working as expected for months. Lately however I have been replacing homelab services to [Alpine Linux](http://alpinelinux.org/) based [Docker](https://www.docker.com/) containers to save up on some precious resources in my resource poor homelab. This made me wonder, if I can change the VM where Tailscale is running to Alpine? Turns out I can, and in the process save about 500 MB of memory ([Proxmox](https://www.proxmox.com/en) has been reporting the memory usage to be between approximately 550 - 750 MB for the Ubuntu VM) that I can use for other services. Win-win!
+I have been running [Tailscale](https://tailscale.com/) in an [Ubuntu](https://ubuntu.com/) [VM](https://en.wikipedia.org/wiki/Virtual_machine), and it has been stable and working as expected for months. Lately however I have been replacing homelab services to [Alpine Linux](https://alpinelinux.org/) based [Docker](https://www.docker.com/) containers to save up on some precious resources in my resource poor homelab. This made me wonder, if I can change the VM where Tailscale is running to Alpine? Turns out I can, and in the process save about 500 MB of memory ([Proxmox](https://www.proxmox.com/en) has been reporting the memory usage to be between approximately 550 - 750 MB for the Ubuntu VM) that I can use for other services. Win-win!
 
 These steps are right after a clean Alpine Linux install. Installation steps can be found [here](https://wiki.alpinelinux.org/wiki/Installation#Installation_Step_Details).
 
